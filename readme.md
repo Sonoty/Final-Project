@@ -6,21 +6,21 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/venge rouge.jpg" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Final Project</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  In this project you will see my hardwork and skills in html and css. It compose of different content every page.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Finals)
 
 ---
 
@@ -59,18 +59,18 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+
+Project: Wireframe, Resume Website, Emmit Code, Html and Css
+Properly know how to use Github and become more professional in creating a project
+Trial and Error, Knowledge, Learnings, Self-Developing
+Html and Css in Visual Studio Code A section of computer code is defined by the  element. The default monospace typeface of the browser is used to display the material inside. Css for to edit fonts, size, color etc..
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Functional
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -117,4 +117,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| YouTube | it supported me on create and designing my website | https://www.youtube.com/ |

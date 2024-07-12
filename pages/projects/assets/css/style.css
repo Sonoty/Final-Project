@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background: #0a5897;
+    border-bottom: 2px solid #5b9bd5;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    color: white;
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+
+#Menu-icon {
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    display: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#2193b0, #6dd5ed);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px; 
+}
+
+.projects {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.projects h1 {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: #0a5897;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.card p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border: 2px solid red;
+}
+
+.btn {
+    background: #ff7f50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #ff6347;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background: #0a5897;
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.card h3 .bx,
+.card p .bx {
+    font-size: 50px; 
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}

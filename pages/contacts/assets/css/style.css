@@ -1,0 +1,162 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position:relative;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 33px 9%;
+    background: transparent;
+    border-bottom: 2px solid burlywood;
+    background: rgb(10, 88, 151);
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+.navlist a:hover{
+    border-bottom: 2px solid rgb(197, 165, 228);
+}
+
+#Menu-icon{
+    color: white;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+   display: none;
+}
+body{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#2193b0, #6dd5ed);
+
+}
+
+main {
+    flex: 1;
+    padding: 100px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 18px;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.card i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    word-break: break-word;
+}
+
+.card:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background: rgb(10, 88, 151);;
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .navlist {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .navlist.active {
+        display: flex;
+    }
+
+    #Menu-icon {
+        display: block;
+    }
+
+    main {
+        padding: 80px 20px 20px;
+    }
+}

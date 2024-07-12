@@ -6,8 +6,12 @@
     list-style: none;
     text-decoration: none;
 }
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 header{
-    position: fixed;
+    position:relative;
     right: 0;
     top: 0;
     z-index: 1000;
@@ -47,7 +51,7 @@ header{
     font-size: 35px;
     z-index: 10001;
     cursor: pointer;
-   display: none;
+    display: none;
 }
 .hero{
     height: 100%;
@@ -55,10 +59,11 @@ header{
     min-height: 100vh;
     background: linear-gradient(#2193b0, #6dd5ed);
     position: relative;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    justify-content: center;
+    text-align: center;
 }
 section{
     padding: 0 19%;
@@ -66,16 +71,16 @@ section{
 .hero-text h4{
     font-size: 18px;
     font-weight: 600;
-    color: white;
+    color: black;
     margin-bottom: 10px;
 }
 .hero-text h1{
     font-family: "Poppins", sans-serif;
-  font-size: 50px;
-  font-style: italic;
-  color: white;
-  line-height: 1;
-  margin: 0 0 45px;
+    font-size: 50px;
+    font-style: italic;
+    color: white;
+    line-height: 1;
+    margin: 0 0 45px;
 }
 .hero-text p{
     color: black;
@@ -84,10 +89,10 @@ section{
     margin-bottom: 40px;
 }
 .hero-img img{
-    width: %00px;
-    height: 500px;
-    object-fit:fill;
-    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0; 
     margin-bottom: 20px;
     border: 2px solid #000;
     transition: all 0.3s ease-in-out;
@@ -99,7 +104,7 @@ section{
 }
 @media (max-width: 1535px){
     header{
-        padding: 15px 3 %;
+        padding: 15px 3%;
         transition: .2s;
     }
     .icons{
@@ -107,12 +112,12 @@ section{
         transition: .2s;
     }
 }
-    footer {
-        width: 100%;
-        text-align: center;
-        padding: 20px 0;
-        background: rgb(10, 88, 151);;
-        color: white;
-        position: fixed;
-        bottom: 0;
-    }
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background: rgb(10, 88, 151);
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
